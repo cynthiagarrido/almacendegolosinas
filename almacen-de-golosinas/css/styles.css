@@ -1,0 +1,97 @@
+html{
+    background-color: black;
+}
+
+h1{
+    color: rgb(245, 153, 15);
+}
+h2,h3{
+color: aliceblue;
+}
+p{
+color: bisque;
+}
+.banner, .bannerTienda { width: 100%;
+height: 6%;
+}
+a{
+     color: yellow;
+     margin: 50px;
+     padding: 50px;
+    
+}
+div.header {
+    display: inline;
+}
+
+div.carrito span {
+    font-weight: 700;
+}
+
+.container, .imagenesPrincipal, a, h1, h2, h3, p{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div-card {
+    display: flexbox;
+    margin: 6px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightblue;
+    box-shadow: 10px 6px 6px rgba(211, 211, 211, 0.221);
+    width: 200px;
+    height: 250px;
+}
+
+.div-card:hover {
+    background-color:rgb(142, 159, 165);
+    transition: .5s ease-in;
+    box-shadow: 5px 20px 60px rgba(211, 211, 211, 0.519);
+}
+
+div.imagen {
+    font-size: 120px !important;
+}
+
+div.producto {
+    font-size: 18px;
+}
+
+button {
+    font-size: 10px;
+    width: 80px;
+    padding: 0px;
+}
+
+button, button:not(:hover) {
+    background-color: darkslategray;
+    border-color: gray;
+}
+
+button:hover {
+    background-color: darkcyan;
+    color: rgba(245, 245, 245, 0.479);
+    border-color: lightgray;
+}
+div.importe {
+    font-size: 16px;
+    font-weight: 700;
+}
+button:active {
+    background-color: black;
+    color: rgb(126, 115, 115);
+    border-color: black;
+}
+
+.wobble-hor-bottom {
+	        animation: wobble-hor-bottom 0.8s both;
+}
+
